@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PRODUCTION - ACCEPTANCE LOGINS]">
+  <test thread-count="5" name="Test FITBASE TRAINER ACCEPTANCE">
+    <classes>
+      <class name="com.trainer.qa.testcases.LoginPageTest"/>
+      <class name="com.trainer.qa.testcases.GmailLoginTest"/>
+      <class name="com.trainer.qa.testcases.FacebookLoginTest"/>
+    </classes>
+  </test> <!-- Test FITBASE TRAINER ACCEPTANCE -->
+  <test name="Test FITBASE TRAINER ACCEPTANCE(failed)">
+    <classes>
+      <class name="com.trainer.qa.testcases.GmailLoginTest">
+        <methods>
+          <include name="GmailLogin1"/>
+          <include name="TrainerSocialBrowser"/>
+        </methods>
+      </class> <!-- com.trainer.qa.testcases.GmailLoginTest -->
+      <class name="com.trainer.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="TrainerLogout"/>
+          <include name="TrainerLogin"/>
+        </methods>
+      </class> <!-- com.trainer.qa.testcases.LoginPageTest -->
+      <class name="com.trainer.qa.testcases.FacebookLoginTest">
+        <methods>
+          <include name="TrainerSocialBrowser"/>
+        </methods>
+      </class> <!-- com.trainer.qa.testcases.FacebookLoginTest -->
+    </classes>
+  </test> <!-- Test FITBASE TRAINER ACCEPTANCE(failed) -->
+</suite> <!-- Failed suite [PRODUCTION - ACCEPTANCE LOGINS] -->

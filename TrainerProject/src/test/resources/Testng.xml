@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Trainer Login">
+	<test name = "Trainer Login Test">
+		<classes>
+			<class name = "testcases.LoginPageTest"/>
+		</classes>
+	</test>
+</suite>

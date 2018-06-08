@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="138846" started-at="2018-06-08T15:22:41Z" finished-at="2018-06-08T15:25:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="138846" started-at="2018-06-08T15:22:41Z" finished-at="2018-06-08T15:25:00Z">
+      <class name="com.trainer.qa.testcases.CreateScheduleTest">
+        <test-method status="PASS" signature="TrainerLogin()[pri:0, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="TrainerLogin" is-config="true" duration-ms="84833" started-at="2018-06-08T20:52:41Z" finished-at="2018-06-08T20:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainerLogin -->
+        <test-method status="PASS" signature="TypeCreateSchedule()[pri:1, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="TypeCreateSchedule" duration-ms="9108" started-at="2018-06-08T20:54:06Z" finished-at="2018-06-08T20:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TypeCreateSchedule -->
+        <test-method status="PASS" signature="WorkoutSessionName()[pri:2, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="WorkoutSessionName" duration-ms="4099" started-at="2018-06-08T20:54:15Z" finished-at="2018-06-08T20:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkoutSessionName -->
+        <test-method status="PASS" signature="WorkoutSessionType()[pri:3, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="WorkoutSessionType" duration-ms="314" started-at="2018-06-08T20:54:20Z" finished-at="2018-06-08T20:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkoutSessionType -->
+        <test-method status="PASS" signature="WorkoutActivitySelection()[pri:4, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="WorkoutActivitySelection" duration-ms="4862" started-at="2018-06-08T20:54:20Z" finished-at="2018-06-08T20:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WorkoutActivitySelection -->
+        <test-method status="PASS" signature="TrainingLevelType()[pri:5, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="TrainingLevelType" duration-ms="14350" started-at="2018-06-08T20:54:25Z" finished-at="2018-06-08T20:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainingLevelType -->
+        <test-method status="PASS" signature="SessiononType()[pri:6, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="SessiononType" duration-ms="3511" started-at="2018-06-08T20:54:39Z" finished-at="2018-06-08T20:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SessiononType -->
+        <test-method status="PASS" signature="SessionTime()[pri:7, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="SessionTime" duration-ms="3405" started-at="2018-06-08T20:54:43Z" finished-at="2018-06-08T20:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SessionTime -->
+        <test-method status="PASS" signature="SessionDurationType()[pri:8, instance:com.trainer.qa.testcases.CreateScheduleTest@70fda8]" name="SessionDurationType" duration-ms="14306" started-at="2018-06-08T20:54:46Z" finished-at="2018-06-08T20:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SessionDurationType -->
+      </class> <!-- com.trainer.qa.testcases.CreateScheduleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
